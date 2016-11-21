@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding:0;
+}
+.contain  {
+  background-color: #48AD85;
+  border-radius: 10px;
+  margin: 50px;
+}
+// .thumbnail{
+//   display: block;
+//   padding: 4px;
+//   line-height: 1.5;
+//   background-color: #fff;
+//   border: 1px solid #ddd;
+//   border-radius: 4px;
+// }
+
+img {
+  border-radius: 10px;
+  width: 1000px;
+  margin-left:auto;
+  margin-right: auto;
+}
+h1 {
+  font-size; 80px;
+  text-align: center;
+  font-family: Lobster, Monospace;
+  padding-top:20px
+}
+h2 {
+  font-size:20px;
+  text-align: center;
+}
+h3{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.img-container{
+  background: white;
+}
+.text{
+  background-color:white;
+}
+.list {
+  margin-top:20px
+  
+}
+li {
+  list-style:none;
+}
+.deeds{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+span {
+  font-style: italic;
+  font-size: 5px;
+}

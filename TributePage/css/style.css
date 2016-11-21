@@ -7,20 +7,17 @@ body {
   border-radius: 10px;
   margin: 50px;
 }
-// .thumbnail{
-//   display: block;
-//   padding: 4px;
-//   line-height: 1.5;
-//   background-color: #fff;
-//   border: 1px solid #ddd;
-//   border-radius: 4px;
-// }
+.thumbnail{
+  background-color: #48AD85;
+  border: 0;
+}
 
 img {
   border-radius: 10px;
   width: 1000px;
-  margin-left:auto;
-  margin-right: auto;
+  vertical-align: middle;
+  // margin-left:auto;
+  // margin-right: auto;
 }
 h1 {
   font-size; 80px;

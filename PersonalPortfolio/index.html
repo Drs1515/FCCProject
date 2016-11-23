@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/cssreset.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/fl.css">
+</head>
+<body>
+	<div class="nav">
+		<!-- <span class="me"><a href="">Simon Wang</a></span> -->
+		<div class="dropdown">
+		    <span class="selLabel">Simon Wang</span>
+		    <input type="hidden" name="cd-dropdown">
+		    <ul class="dropdown-list">
+		      <li data-value="1">
+		        <span><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/Drs1515" target="_blank">GitHub</a></span>
+		      </li>
+		      <li data-value="2">
+		        <span><i class="fa fa-envelope" aria-hidden="true"></i>Gmail</span>
+		      </li>
+		      <li data-value="3">
+		        <span><i class="fa fa-weixin" aria-hidden="true"></i>WeChat</span>
+		      </li>
+		      <li data-value="4">
+		        <span><i class="fa fa-mobile" aria-hidden="true"></i> Phone</span>
+		      </li>
+		    </ul>
+	  	</div>
+
+		<ul>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#protfolio">Protfolio</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#home">Home</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div id="home">
+			<h1>Fantasy Website</h1>
+			<h3>Where Awesomeness is Brought To Life</h3>
+		</div>
+
+		<div id="about">
+				<h2>Frontend-Design Fanatic</h2>
+				<p>
+					I'm a new graduate student from Guangdong Institute of Science and Technology.Hopefully to be a frontend designer. My passion is to use technology based solutions, to help solve real world challenges.<br>
+					Through <strong>self taught</strong>, I get this Competences:<br>
+					Languages and Frameworks:<br>
+					Javascript, HTML5, CSS3, jQuery, Bootstrap3,json.<br>
+					Tools & expertise:<br>
+					Git, Responsive Web Design, Travel Website-roma, Ban Website-domsters.
+				</p>
+				<img src="img/personal.jpg" alt="personal pic">
+		</div>
+
+		<div id="protfolio">
+			<h2>Awesomeness Protfolio</h2>
+			<h3>Below you'll find some of my recent work.</h3>
+			<div class="works_top">
+				<div class="works_top_l fl">
+					<a href="https://drs1515.github.io/frontend-Design/roma/" target="-blank">
+						<img src="img/roma.JPG" alt="travel in roma">
+					</a>
+				</div>
+				<div class="works_top_m fl">
+					<a href="https://drs1515.github.io/frontend-Design/domsters/" target="-blank">
+						<img src="img/domsters.JPG" alt="domsters ban">
+					</a>
+				</div>
+				<div class="works_top_r fl">
+					<a href="https://drs1515.github.io/frontend-Design/starbuzz/" target="-blank">
+						<img src="img/starbuzz.JPG" alt="starbuzz coffee">
+					</a>
+				</div>
+			</div>
+			<div class="works_bottom">
+				<div class="works_bottom_l fl">
+					<a href="https://drs1515.github.io/FCCProject/TributePage" target="_blank">
+						<img src="img/Allen.JPG" alt="trubute page">
+					</a>
+				</div>
+				<div class="works_bottom_m fl">
+					<a href="https://drs1515.github.io/frontend-Design/RF5Buy/" target="-blank">
+						<img src="img/shop.JPG" alt="meilan shop">
+					</a>
+				</div>
+				<div class="works_bottom_r fl">
+					<a href="https://drs1515.github.io/frontend-Design/QQ/" target="-blank">
+						<img src="img/qq.JPG" alt="qq">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact">
+			<h2>Contact with Simon Wang:</h2>
+			<ul>
+				<li>
+					<a href="https://github.com/Drs1515" target="_blank">
+						<i class="fa fa-github" aria-hidden="true"></i>GitHub
+					</a>
+				</li>
+				<li>
+					<a href="#" onmouseover="display()" onmouseout="disappear()">
+						<i class="fa fa-envelope" aria-hidden="true"></i>Gmail
+					</a>
+					<div id="box1">Simondrs1515@gmail.com</div>
+				</li>
+				<li>
+					<a href="#" onmouseover="display()" onmouseout="disappear()">
+						<i class="fa fa-weixin" aria-hidden="true"></i>WeChat
+					</a>
+					<div id="box2">15913184600</div>
+				</li>
+				<li>
+					<a href="#" onmouseover="display()" onmouseout="disappear()">
+						<i class="fa fa-mobile" aria-hidden="true"></i>Phone
+					</a>
+					<div id="box3">15913184600</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about"><i class="fa fa-chevron-right" aria-hidden="true"></i>About</a></li>
+			<li><a href="#protfolio"><i class="fa fa-chevron-right" aria-hidden="true"></i>Protfolio</a></li>
+			<li><a href="#contact"><i class="fa fa-chevron-right" aria-hidden="true"></i>Contact</a></li>
+		</ul>
+		<p>Copyright © Fantasy Website 2016. All Rights Reserved</p>
+	</div>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

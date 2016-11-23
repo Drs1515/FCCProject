@@ -7,7 +7,7 @@ body {
   border-radius: 10px;
   margin: 50px;
 }
-.thumbnail{
+.contain .thumbnail{
   background-color: #48AD85;
   border: 0;
 }

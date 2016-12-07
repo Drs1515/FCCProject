@@ -18,6 +18,11 @@ body a{
 	background: url(../img/spider.png);
 	transition: all .5s ease-in-out;
 }
+@media (max-width: 1300px) {
+    #back-to-top {
+        display: none !important;
+    }
+}
 .nav .selLabel  {
 	font-size: 20px;
 	font-family: Condiment, cursive;

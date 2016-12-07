@@ -150,31 +150,35 @@ h2 {
 	border: 1px solid #1f2324;
 	border-radius: 5px;
 }
-#contact ul {
-	padding:4px 0;
-	margin: 100px 0;
-	overflow:hidden;
+#contact h2 {
+	text-align: center;
+	margin-bottom: 130px
 }
+// #contact ul {
+// 	padding:4px 0;
+// 	margin: 100px 0;
+// 	overflow:hidden;
+// }
 
-#contact ul li {
-	// width: 140px;
-	// height: 51px;
-	display:inline-block;
-	padding-right: 5px;
-	margin-left:5px;
-}
-#contact ul li a {
-	display: inline-block;
-	border: 2px outset #fff;
-	background-color: #FFF93E;
-	letter-spacing: 2px;
-	padding: 10px 10px;
-	border-radius: 5px;
-	font-weight: bold;
-	font-size: 1.5em;
-	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-	// text-shadow: 1px 1px 1px rgba(0,0,0,10);
-}
+// #contact ul li {
+// 	// width: 140px;
+// 	// height: 51px;
+// 	display:inline-block;
+// 	padding-right: 5px;
+// 	margin-left:5px;
+// }
+// #contact ul li a {
+// 	display: inline-block;
+// 	border: 2px outset #fff;
+// 	background-color: #FFF93E;
+// 	letter-spacing: 2px;
+// 	padding: 10px 10px;
+// 	border-radius: 5px;
+// 	font-weight: bold;
+// 	font-size: 1.5em;
+// 	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+// 	// text-shadow: 1px 1px 1px rgba(0,0,0,10);
+// }
 .fa-github{
 	color: black;
 }

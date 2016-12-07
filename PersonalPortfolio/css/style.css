@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+// body {
+//   min-height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// button, input, textarea, select {
+//   font-family: "Raleway", sans-serif;
+// }
+
+.center {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.center .field .has-tooltip {
+  font-size: 1em;
+  font-weight: 700;
+  color: #000;
+}
+.center .field .has-tooltip i {
+  font-size: 1.5em;
+}
+.center .field .tooltip {
+  color: #000;
+  font-weight: 500;
+}
+button, .btn, input[type='submit'] {
+  padding: 20px 50px;
+  border: none;
+  outline: none;
+  background: #3CAEE7;
+  transition: 0.15s ease-in-out;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+button:hover, button:focus, .btn:hover, .btn:focus, input[type='submit']:hover, input[type='submit']:focus {
+  background: #F0FD6F;
+}
+
+.has-tooltip:hover + .tooltip,
+.has-tooltip:focus + .tooltip,
+.has-tooltip.hover + .tooltip {
+  opacity: 1;
+  transform: translate(-50%, -100%) scale(1) rotate(0deg);
+  pointer-events: inherit;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.75) rotate(5deg);
+  transform-origin: bottom center;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  color: white;
+  transition: 0.15s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  max-width: 100vw;
+  pointer-events: none;
+  z-index: 5;
+}
+.tooltip.blue {
+  background: rgba(71, 184, 224, 0.75);
+}
+.tooltip.blue:after {
+  border-top: 5px solid rgba(71, 184, 224, 0.75);
+}
+.tooltip:hover {
+  opacity: 1;
+  transform: translate(-50%, -100%) scale(1) rotate(0deg);
+  pointer-events: inherit;
+}
+.tooltip:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.75);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.field {
+  position: relative;
+  padding: 20px;
+}

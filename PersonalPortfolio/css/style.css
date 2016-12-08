@@ -35,7 +35,7 @@
   color: #000;
   font-weight: 500;
 }
-button, .btn, input[type='submit'] {
+button{
   padding: 20px 50px;
   border: none;
   outline: none;
@@ -46,7 +46,7 @@ button, .btn, input[type='submit'] {
   border-radius: 5px;
   display: inline-block;
 }
-button:hover, button:focus, .btn:hover, .btn:focus, input[type='submit']:hover, input[type='submit']:focus {
+button:hover, button:focus, .btn:hover {
   background: #F0FD6F;
 }
 

@@ -19,9 +19,9 @@ body a{
 	transition: all .5s ease-in-out;
 }
 @media (max-width: 1300px) {
-    #back-to-top {
-        display: none !important;
-    }
+  #back-to-top {
+    display: none !important;
+  }
 }
 .nav .selLabel  {
 	font-size: 20px;

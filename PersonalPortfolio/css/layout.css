@@ -233,7 +233,7 @@ h2 {
 .dropdown {
 	display: inline-block;
   margin-left: 140px;
-  width: 158px;
+  width: 180px;
   position: relative;
   z-index:999;
   -webkit-perspective: 800px;

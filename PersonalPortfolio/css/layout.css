@@ -65,7 +65,7 @@ a:hover {
 #home {
 	background: url(../img/RayAllen.jpg) no-repeat center center fixed;
 	padding: 10px 0 600px 0;
-	background-attachment: scroll;
+	// background-attachment: scroll;
 	/* for IE */
 	// filter:alpha(opacity=90);
 	/* CSS3 standard */
@@ -87,9 +87,9 @@ h3 {
 	color: #fff;
 }
 #about {
-	background: url(../img/comein.jpg) no-repeat;
+	background: url(../img/comein.jpg) no-repeat center center fixed;
 	padding: 10px 0 100px 0;
-	background-attachment: fixed;
+	// background-attachment: fixed;
 	// border: 1px solid #e81123;
 	// border-radius: 5px;
 }
@@ -119,11 +119,11 @@ h2 {
 	margin-left:150px;
 }
 #protfolio {
-	background: url(../img/tech.jpg) no-repeat;
+	background: url(../img/tech.jpg) no-repeat center center fixed;
 	padding: 10px 0 100px 0;
-	background-attachment: fixed;
-	border: 1px solid #322c3a;
-	border-radius: 5px;
+	// background-attachment: fixed;
+	// border: 1px solid #322c3a;
+	// border-radius: 5px;
 	text-align: center;
 }
 #protfolio .works_top {
@@ -149,11 +149,11 @@ h2 {
 }
 #contact {
 	text-align: center;
-	background: url(../img/contact.jpg) no-repeat;
+	background: url(../img/contact.jpg) no-repeat center center fixed;
 	padding: 10px 0px 180px 0;
-	background-attachment: fixed;
-	border: 1px solid #1f2324;
-	border-radius: 5px;
+	// background-attachment: fixed;
+	// border: 1px solid #1f2324;
+	// border-radius: 5px;
 }
 #contact h2 {
 	text-align: center;

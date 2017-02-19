@@ -63,16 +63,16 @@ a:hover {
 	padding-right: 0;
 }
 #home {
-	background: url(../img/RayAllen.jpg) no-repeat;
+	background: url(../img/RayAllen.jpg) no-repeat center center fixed;
 	padding: 10px 0 600px 0;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	/* for IE */
 	// filter:alpha(opacity=90);
 	/* CSS3 standard */
 	// opacity:0.9;
 	text-align: center;
-	border: 1px solid #000;
-	border-radius: 5px;
+	// border: 1px solid #000;
+	// border-radius: 5px;
 }
 h1 {
 	color: #48AD85;
@@ -90,8 +90,8 @@ h3 {
 	background: url(../img/comein.jpg) no-repeat;
 	padding: 10px 0 100px 0;
 	background-attachment: fixed;
-	border: 1px solid #e81123;
-	border-radius: 5px;
+	// border: 1px solid #e81123;
+	// border-radius: 5px;
 }
 h2 {
 	color: #FEED42;

@@ -49,10 +49,15 @@ a:hover {
 	height: 65px;
 	border-bottom: 1px solid #000;
 }
+.nav-center {
+	margin: 0 auto;
+	width: 1070px;
+	position: relative;
+}
 .nav ul {
 	display: inline-block;
 	float:right;
-	margin-right:117px;
+	// margin-right:117px;
 }
 .nav li {
 	float:right;
@@ -232,7 +237,7 @@ h2 {
 }
 .dropdown {
 	display: inline-block;
-  margin-left: 140px;
+  // margin-left: 140px;
   width: 180px;
   position: relative;
   z-index:999;

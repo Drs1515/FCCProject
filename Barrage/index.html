@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Barrage</title>
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<span>弹幕墙</span>
+	</div>
+
+	<div class="barrage">
+		<div class="barrage_screen">
+			<div class="barrage_mask"></div>
+			<div class="barrage_show"></div>
+		</div>
+
+		<div class="send_barrage">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-3">
+						<input type="text" placeholder="说点什么吧" class="form-control bar_text"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="btns">
+						<button type="button" class="btn btn-default s_sub">发射</button>
+						<button type="button" class="btn btn-warning s_del">清屏</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='https://cdn.wilddog.com/js/client/current/wilddog.js'></script>
+	<script src='https://cdn.wilddog.com/js/vendor/jquery-1.11.2.min.js'></script>
+
+	<script src="js/index.js"></script>
+</body>
+</html>
